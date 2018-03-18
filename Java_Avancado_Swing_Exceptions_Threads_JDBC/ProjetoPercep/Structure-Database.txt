@@ -1,0 +1,9 @@
+create table percep(
+id int not null auto_increment,
+nome varchar(20),
+sobrenome varchar(20),
+email varchar(30),
+senha varchar(20),
+confirmarSenha varchar(20),
+primary key(id)
+) character set = utf8;
